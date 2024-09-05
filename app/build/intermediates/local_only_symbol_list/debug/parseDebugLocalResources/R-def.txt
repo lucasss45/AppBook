@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+anim scale_down
+anim scale_up
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable list_item_background
+id book_title
+id chapter_list
+id chapter_number
+layout activity_main
+layout list_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style Base.Theme.AppBook
+style Theme.AppBook
+xml backup_rules
+xml data_extraction_rules
