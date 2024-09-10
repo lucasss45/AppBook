@@ -1,27 +1,29 @@
 package com.example.appbook;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
+import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.appbook.ChapterAdapter;
+public class MainActivity extends AppCompatActivity {
 
-public class MainActivity extends Activity {
+    private ImageView backArrow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView listView = findViewById(R.id.chapter_list);
+        ListView chapterListView = findViewById(R.id.chapter_list);
+        backArrow = findViewById(R.id.back_arrow);
 
 
-        String[] chapters = new String[216];
-        for (int i = 0; i < chapters.length; i++) {
-            chapters[i] = "Capítulo " + (i + 1);
-        }
-
-        ChapterAdapter adapter = new ChapterAdapter(this, chapters);
-        listView.setAdapter(adapter);
+        backArrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }

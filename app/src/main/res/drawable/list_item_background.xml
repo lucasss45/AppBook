@@ -2,17 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
-            <solid android:color="#FF4500"/> <!-- Cor de fundo ao clicar -->
+            <solid android:color="#F29898"/> <!-- Vermelho mais claro ao pressionar -->
             <corners android:radius="8dp" />
-            <stroke android:width="2dp" android:color="#FFD700"/> <!-- Borda dourada -->
+            <stroke android:width="2dp" android:color="#F0EBE4"/> <!-- Borda branca -->
             <padding android:left="8dp" android:right="8dp" android:top="8dp" android:bottom="8dp" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="#1D1B1B"/> <!-- Cor de fundo padrão -->
+            <solid android:color="#EA6767"/> <!-- Vermelho escuro padrão -->
             <corners android:radius="8dp" />
-            <stroke android:width="2dp" android:color="#FF6347"/> <!-- Borda laranja-avermelhada -->
+            <stroke android:width="2dp" android:color="#F0EBE4"/> <!-- Borda branca -->
             <padding android:left="8dp" android:right="8dp" android:top="8dp" android:bottom="8dp" />
         </shape>
     </item>

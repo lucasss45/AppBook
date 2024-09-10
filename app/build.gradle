@@ -5,7 +5,8 @@ plugins {
 android {
     namespace 'com.example.appbook'
     compileSdk 34
-
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
     defaultConfig {
         applicationId "com.example.appbook"
         minSdk 24

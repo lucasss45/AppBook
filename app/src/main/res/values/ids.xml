@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="chapter_list" type="id">chapter_list</item>
+    <item name="back_arrow" type="id">back_arrow</item>
+    <item name="menu_layout" type="id">menu_layout</item>
+    <item name="menu_image" type="id">menu_image</item>
+    <item name="menu_button" type="id">menu_button</item>
+    <item name="read_book_button" type="id">read_book_button</item>
+</resources>

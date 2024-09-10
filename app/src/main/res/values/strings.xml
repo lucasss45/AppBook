@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AppBook</string>
+    <string name="app_name">App de Livros</string>
+    <string name="book_title">O Avesso da Pele</string>
+    <string name="back_arrow_description">Voltar à tela anterior</string>
 </resources>
